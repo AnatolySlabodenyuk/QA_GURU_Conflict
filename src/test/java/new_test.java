@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class new_test {
     @Test
     void successfulSearchTest() {
+        System.out.println("Hello QA GURU!");
         open("https://habr.com");
     }
 }
